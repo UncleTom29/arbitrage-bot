@@ -28,7 +28,7 @@ executorContractAddress=<CONTRACT_ADDRESS>
 ```
 Replace <YOUR_RPC_URL> with the URL of your Ethereum RPC provider, <YOUR_PRIVATE_KEY> with the private key of the Ethereum address you want to use for executing the transactions, and <CONTRACT_ADDRESS> with the address of the deployed BlindBackrun smart contract from above.
 
-6. To start listening to the Flashbots MEV-Share Matchmaker and submitting blind arbitrage transactions, run the following command:
+6. To start submitting arbitrage transactions, run the following command:
 ```bash
 node index.js -n <network>
 ```
